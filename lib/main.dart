@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:my_first_mobile_app/pages/home.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform
+  );
+  initInjection();
   runApp(const MyApp());
 }
 /* hey */
