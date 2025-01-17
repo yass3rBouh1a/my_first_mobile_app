@@ -4,7 +4,7 @@ import 'package:my_first_mobile_app/pages/home.dart';
 void main() {
   runApp(const MyApp());
 }
-
+/* hey */
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: true,
       home: HomePage()
+      bbnb bbnnbb
     );
   }
 }
