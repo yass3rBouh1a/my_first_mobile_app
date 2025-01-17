@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "98073710193",
+    "project_id": "my-awesome-mobile-app",
+    "storage_bucket": "my-awesome-mobile-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98073710193:android:cc7774995a6eaccfae95d0",
+        "android_client_info": {
+          "package_name": "com.example.my_first_mobile_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjZlre6K-iwDylrsB7RlEjBM9Lhn3t_DE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
