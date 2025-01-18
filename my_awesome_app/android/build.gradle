@@ -1,0 +1,27 @@
+android {
+    compileSdkVersion 33
+
+    defaultConfig {
+        applicationId "com.example.myawesomeapp"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation platform('com.google.firebase:firebase-bom:31.2.0') // Firebase BOM
+    implementation 'com.google.firebase:firebase-analytics'
+}
+
+// Ajoutez cette ligne à la fin du fichier
+apply plugin: 'com.google.gms.google-services'
