@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:rentapp/data/models/car.dart';
-import 'package:rentapp/presentation/pages/MapsDetailsPage.dart';
-import 'package:rentapp/presentation/widgets/car_card.dart';
-import 'package:rentapp/presentation/widgets/more_card.dart';
+import 'package:my_first_mobile_app/data/models/car.dart';
+import 'package:my_first_mobile_app/presentation/pages/MapsDetailsPage.dart';
+import 'package:my_first_mobile_app/presentation/widgets/car_card.dart';
+import 'package:my_first_mobile_app/presentation/widgets/more_card.dart';
 
 class CardDetailsPage extends StatefulWidget {
   final Car car;

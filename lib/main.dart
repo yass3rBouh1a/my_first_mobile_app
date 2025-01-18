@@ -10,7 +10,7 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
-  initInjection(); // Assurez-vous que cette fonction initialise les dépendances nécessaires
+  initInjection();
 
   runApp(const MyApp());
 }
